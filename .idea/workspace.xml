@@ -13,6 +13,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "20253ds159-lgtm"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sebastian-CR7/prog-str-SebastianMartinez-2c.git",
+    "accountId": "bb675fbf-a985-4c7a-996e-3d6f2dd55a82"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -68,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1768401988581</updated>
       <workItem from="1768401990157" duration="2638000" />
+      <workItem from="1769607707753" duration="70000" />
     </task>
     <servers />
   </component>
