@@ -15,14 +15,14 @@ public class GradeService {
         return (promedio * .7) + (asistencia * .3);
     }
 
-    public String determinarEstado(double notaFinal, int asistencia, boolean entrega) {
+    public String determinarEstado(double califfin, int asistencia, boolean entrega) {
         if (asistencia < 80) {
             return "REPROBADO por asistencia";
         } else if (!entrega) {
             return "REPROBADO por proyecto";
         }
         if (califfin >= 70) {
-            return "APROBADO";
+            return "Estas APROBADO";
         } else {
             return "REPROBADO por calificacion";
         }

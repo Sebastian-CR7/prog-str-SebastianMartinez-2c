@@ -7,7 +7,7 @@ public class Main {
         GradeService gradeservice = new GradeService();
         //I-P-0
         //INPUT
-        String nom = inputvalidator.leerTextoNoVacio(sc, "Ingresa el nombre del alumno: ");
+         String nom = inputvalidator.leerTextoNoVacio(sc, "Ingresa el nombre del alumno: ");
         double p1 = inputvalidator.leerDoubleEnRango(sc, "Ingresa la calificacion parcial 1: ", 0, 100);
         double p2 = inputvalidator.leerDoubleEnRango(sc, "Ingresa la calificacion parcial 2: ", 0, 100);
         double p3 = inputvalidator.leerDoubleEnRango(sc, "Ingresa la calificacion parcial 3: ", 0, 100);
