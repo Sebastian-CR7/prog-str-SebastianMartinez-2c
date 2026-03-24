@@ -5,7 +5,6 @@ import com.example.demolistviewfile.repositories.PersonFileRepository;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
 public class PersonService {
 
     PersonFileRepository repo = new PersonFileRepository();
@@ -15,7 +14,6 @@ public class PersonService {
         List<String> result= new ArrayList<>();
         for(String line : lines){
           if(line==null || line.isBlank()) continue;
-
           String[] parts= line.split(",");
           String name=parts[0];
           String email=parts[1];
@@ -27,12 +25,10 @@ public class PersonService {
     public void addPerson(String name, String email, int age) throws IOException {
         validate(name, email, age);
 
-
         repo.addNewLine(name + "," + email + "," + age);
     }
 
     private void validate(String name, String email, int age) {
-
         if (name == null || name.isBlank() || name.length() < 3) {
             throw new IllegalArgumentException("El nombre es incorrecto");
         }
